@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Comi';
+      src: url('Scream\ Again.ttf'); 
+  }
+  @font-face {
+    font-family: 'Comil';
+      src: url('Balloons!.ttf'); 
+  }
+  @font-face {
+    font-family: 'ComiK';
+      src: url('Delmon\ Delicate.ttf'); 
+  }
+.main{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-image:url("kk.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ver{
+    position: relative;
+    width: 100%;
+   background-color: rgb(255, 255, 255);
+    height:480px;
+    border-radius: 9px;
+    box-shadow: 15px 18px 30px rgba(0, 0, 0, 0.664);
+}
+.dd{
+    position: relative;
+    height: 420px;
+    padding-left: 8px; 
+    padding-right:8px ;
+    
+}
+.Heading{
+    width: 100%;
+    text-align: center;
+    border-radius: 9px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'Comi';
+    /* background-color: rgb(237, 189, 252); */
+    background-color: #ee8e626a;
+    color: #4a274f;
+}
+.input,.output{
+    border: 1px solid rgb(90, 37, 106);
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 35px;
+    padding-top:10px;
+    font-family: 'Comil';
+    padding-bottom: 30px; 
+    overflow:hidden;
+}
+.output{
+    margin-top: 7px;
+}
+.kkk{
+    text-align: center;
+}
+img{
+    width: 20px;
+}
+.img{
+    padding-left: 48%;
+    padding-right: 48%;
+}
+.botton{
+    height: 100px;
+    text-align: center;
+}
+.bon{
+    padding-left: 50px;
+    padding-right:50px;
+    margin: 10px;
+    width: 470px;
+    height: 70px;
+    border: 0px;
+    background-color: rgb(76, 55, 123);
+    color: white;
+    font-family: 'ComiK';
+    border-radius: 10px;
+}
+.add,.pal{
+    margin-top: 40px;
+    margin: 20px;
+    width: 290px;
+    height: 70px;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: 15px 18px 30px rgba(0, 0, 0, 0.664);
+}
+.pal{
+    margin-left: 60px;
+}
+.bon:hover{
+    background-color: rgb(178, 151, 238);
+    color: black;
+    transition: 1s;
+}
+.bon:active{
+    animation: exam;
+    animation-duration: .14s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes exam{
+    0%{
+    background-color: rgb(178, 151, 238);
+    color: black;
+    }
+    100% {
+        background-color: rgb(76, 55, 123);
+        color: rgb(0, 0, 0);
+    }
+}
